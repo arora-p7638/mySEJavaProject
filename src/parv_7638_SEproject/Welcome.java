@@ -47,7 +47,7 @@ public static int flagg=0;
 	{
 		
 		frame = new JFrame();
-		frame.setBounds(100, 100, 618, 451);
+		frame.setBounds(100, 100, 696, 483);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -57,19 +57,19 @@ public static int flagg=0;
 		frame.getContentPane().add(lblNewLabel);
 		
 		btnStartShift = new JButton("Start Shift");
-		btnStartShift.setBounds(83, 153, 89, 23);
+		btnStartShift.setBounds(83, 153, 128, 23);
 		frame.getContentPane().add(btnStartShift);
 		
 		btnEndShift = new JButton("End Shift");
-		btnEndShift.setBounds(373, 153, 89, 23);
+		btnEndShift.setBounds(373, 153, 128, 23);
 		frame.getContentPane().add(btnEndShift);
 		
 		btnStartLunch = new JButton("Start Shift");
-		btnStartLunch.setBounds(83, 227, 89, 23);
+		btnStartLunch.setBounds(83, 227, 128, 23);
 		frame.getContentPane().add(btnStartLunch);
 		
 		btnEndLunch = new JButton("End Shift");
-		btnEndLunch.setBounds(373, 227, 89, 23);
+		btnEndLunch.setBounds(373, 227, 128, 23);
 		frame.getContentPane().add(btnEndLunch);
 		
 		btnLogout = new JButton("Logout");

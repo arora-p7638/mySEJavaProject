@@ -65,7 +65,7 @@ public void setUpComponents()
 	frame.getContentPane().add(lblNewLabel);
 	
 	JLabel lblNewLabel_1 = new JLabel("Password");
-	lblNewLabel_1.setBounds(240, 298, 46, 14);
+	lblNewLabel_1.setBounds(240, 298, 86, 14);
 	frame.getContentPane().add(lblNewLabel_1);
 	
 	btnLogin = new JButton("Login");
